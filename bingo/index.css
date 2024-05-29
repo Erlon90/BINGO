@@ -1,0 +1,98 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height:5vh;
+    background-color: salmon;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+div#body_cartelas{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+div.cartela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+div.cartela h4{
+    margin-bottom: 5px;
+
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th,td{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+
+}
+
+section#area_cartelas{
+    width:70%;
+    height: 75vh;
+    background-color: aqua;
+}
+
+section#area_numeros {
+    width: 30%;
+    height: 75vh;
+    background-color: blue;
+}
+
+div#header_cartelas{
+    width: 100%;
+    height: 20%;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+button{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+
